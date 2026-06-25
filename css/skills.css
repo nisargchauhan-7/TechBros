@@ -1,0 +1,54 @@
+.skills-section{
+    background:#050505;
+}
+
+.expertise-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.expertise-card{
+
+    background:rgba(255,255,255,0.03);
+
+    border:1px solid rgba(255,255,255,0.05);
+
+    border-radius:25px;
+
+    padding:35px;
+
+    transition:0.4s;
+}
+
+.expertise-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:rgba(0,217,255,0.4);
+}
+
+.expertise-card h3{
+    margin-bottom:15px;
+}
+
+.expertise-card p{
+    margin-bottom:25px;
+}
+
+.tech-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tech-tags span{
+
+    padding:8px 14px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,0.05);
+
+    font-size:.85rem;
+}
